@@ -1,7 +1,7 @@
 # Autonomous Mobile Robot
 
 NUS Autonomous Mobile Robotics Final Project
-> Authors: Christina Lee, Dongen Li, Yuhang Han, and Shuo Sun
+> Authors: Christina Lee, Dongen Li, Yuhang Han, and Shuo Sun <br>
 > Project done by: Shen Xiaoting, Zeng Jinlin, Lei Haoran, Shang Jiajian
 
 ![Ubuntu 20.04](https://img.shields.io/badge/OS-Ubuntu_20.04-informational?style=flat&logo=ubuntu&logoColor=white&color=2bbc8a)
