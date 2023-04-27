@@ -1,0 +1,18 @@
+{
+  "configurations": [
+    {
+      "name": "Linux",
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "${workspaceFolder}/**",
+        "/opt/ros/melodic/include",
+        "/opt/ros/melodic/include/ompl-1.4"
+      ]
+      
+    }
+  ],
+  "version": 4
+}

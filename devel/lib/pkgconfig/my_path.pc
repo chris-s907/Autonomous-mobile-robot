@@ -1,0 +1,8 @@
+prefix=/home/sxt/ME5413_Final_Project/devel
+
+Name: my_path
+Description: Description of my_path
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: roscpp rospy std_msgs

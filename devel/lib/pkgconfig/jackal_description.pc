@@ -1,0 +1,8 @@
+prefix=/home/sxt/ME5413_Final_Project/devel
+
+Name: jackal_description
+Description: Description of jackal_description
+Version: 0.8.6
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

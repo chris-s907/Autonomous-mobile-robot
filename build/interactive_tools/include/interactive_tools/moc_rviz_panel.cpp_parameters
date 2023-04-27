@@ -1,0 +1,16 @@
+-I/home/sxt/ME5413_Final_Project/src/interactive_tools/include
+-I/opt/ros/noetic/include
+-I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp
+-I/usr/include
+-I/usr/include/eigen3
+-I/usr/include/OGRE/Overlay
+-I/usr/include/OGRE
+-I/home/sxt/ME5413_Final_Project/build/interactive_tools
+-DROS_BUILD_SHARED_LIBS=1
+-DROS_BUILD_SHARED_LIBS=1
+-DROS_PACKAGE_NAME="interactive_tools"
+-DROSCONSOLE_BACKEND_LOG4CXX
+-DQT_NO_KEYWORDS
+-o
+/home/sxt/ME5413_Final_Project/build/interactive_tools/include/interactive_tools/moc_rviz_panel.cpp
+/home/sxt/ME5413_Final_Project/src/interactive_tools/include/interactive_tools/rviz_panel.hpp

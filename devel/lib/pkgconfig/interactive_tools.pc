@@ -1,0 +1,8 @@
+prefix=/home/sxt/ME5413_Final_Project/devel
+
+Name: interactive_tools
+Description: Description of interactive_tools
+Version: 0.0.0
+Cflags: -I/home/sxt/ME5413_Final_Project/src/interactive_tools/include
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/sxt/ME5413_Final_Project/install
+
+Name: me5413_world
+Description: Description of me5413_world
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 
