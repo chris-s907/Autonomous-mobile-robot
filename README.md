@@ -195,6 +195,8 @@ roslaunch me5413_world teb_hybridastar_nav.launch
   * `/me5413_world/absolute/position_error` (in meters, wrt `world` frame, `std_msgs::Float32`)
   * `/me5413_world/relative/heading_error` (in degrees, wrt `map` frame, `std_msgs::Float32`)
   * `/me5413_world/relative/position_error` (in meters wrt `map` frame, `std_msgs::Float32`)
+* Visualization
+  https://www.bilibili.com/video/BV12M4y1871D/?spm_id_from=333.1007.top_right_bar_window_history.content.click&vd_source=ffd190c162029c6edfcf1cd4805a65e3
 
 ## Contribution
 
