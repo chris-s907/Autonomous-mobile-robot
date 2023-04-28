@@ -4,6 +4,8 @@ NUS Autonomous Mobile Robotics Final Project
 > Authors: Christina Lee, Dongen Li, Yuhang Han, and Shuo Sun <br>
 > Project done by: Shen Xiaoting, Zeng Jinlin, Lei Haoran, Shang Jiajian
 
+This repo implemented the gmapping slam algorithm, compare the DWA and TEB local planner, and Dijkstra and hybrid A* global planner for path planning
+
 ![Ubuntu 20.04](https://img.shields.io/badge/OS-Ubuntu_20.04-informational?style=flat&logo=ubuntu&logoColor=white&color=2bbc8a)
 ![ROS Noetic](https://img.shields.io/badge/Tools-ROS_Noetic-informational?style=flat&logo=ROS&logoColor=white&color=2bbc8a)
 ![C++](https://img.shields.io/badge/Code-C++-informational?style=flat&logo=c%2B%2B&logoColor=white&color=2bbc8a)
@@ -111,7 +113,10 @@ If you wish to explore the gazebo world a bit, we provide you a way to manually 
 
 ```bash
 # Only launch the robot keyboard teleop control
+# Gmapping
 roslaunch me5413_world manual.launch
+# Hector
+roslaunch me5413_world mapping_hector.launch
 ```
 
 **Note:** This robot keyboard teleop control is also included in all other launch files, so you don't need to launch this when you do mapping or navigation.
@@ -145,12 +150,24 @@ Then, in the second terminal:
 
 ```bash
 # Load a map and launch AMCL localizer
+# (1) Using DWA and Dijkstra
 roslaunch me5413_world navigation.launch
+# (2) Using TEB and Dijkstra
+roslaunch me5413_world navigation_teb_loc.launch
+# (3) Using DWA and hybrid A*
+roslaunch me5413_world navigation_hybridastar.launch
+# (4) Using TEB and hybrid A*
+roslaunch me5413_world teb_hybridastar_nav.launch
 ```
-
 ![rviz_navigation_image](src/me5413_world/media/rviz_navigation.png)
 
-## Student Tasks
+Final route of four methods
+![rviz_navigation_path](src/me5413_world/media/path_1.png)
+![rviz_navigation_path](src/me5413_world/media/path_2.png)
+![rviz_navigation_path](src/me5413_world/media/path_3.png)
+![rviz_navigation_path](src/me5413_world/media/path_4.png)
+
+## Tasks
 
 ### 1. Map the environment
 
