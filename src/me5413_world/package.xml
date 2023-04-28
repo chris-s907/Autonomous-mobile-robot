@@ -54,6 +54,7 @@
   <depend>roscpp</depend>
   <depend>std_msgs</depend>
   <depend>rviz</depend>
+  <depend>rviz_imu_plugin</depend>
   <depend>gazebo_ros</depend>
   <depend>map_server</depend>
   <depend>jsk_rviz_plugins</depend>
