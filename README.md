@@ -161,7 +161,7 @@ roslaunch me5413_world teb_hybridastar_nav.launch
 ```
 ![rviz_navigation_image](src/me5413_world/media/rviz_navigation.png)
 
-Final route of four methods
+Final routes of four methods in rviz:
 
 ![rviz_navigation_path](src/me5413_world/media/path_1.png)
 ![rviz_navigation_path](src/me5413_world/media/path_2.png)
