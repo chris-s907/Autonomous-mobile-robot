@@ -161,13 +161,6 @@ roslaunch me5413_world teb_hybridastar_nav.launch
 ```
 ![rviz_navigation_image](src/me5413_world/media/rviz_navigation.png)
 
-Final routes of four methods in rviz:
-
-![rviz_navigation_path](src/me5413_world/media/path_1.png)
-![rviz_navigation_path](src/me5413_world/media/path_2.png)
-![rviz_navigation_path](src/me5413_world/media/path_3.png)
-![rviz_navigation_path](src/me5413_world/media/path_4.png)
-
 ## Tasks
 
 ### 1. Map the environment
@@ -189,6 +182,13 @@ Final routes of four methods in rviz:
 * We have provided you a GUI in RVIZ that allows you to click and publish these given goal poses to the `/move_base_simple/goal` topic:
   
   ![rviz_panel_image](src/me5413_world/media/rviz_panel.png)
+
+  Final routes (from assembly line 1 --> packaging area 1 --> delivery vehicle 2) of four methods in rviz:
+
+  ![rviz_navigation_path](src/me5413_world/media/path_1.png)
+  ![rviz_navigation_path](src/me5413_world/media/path_2.png)
+  ![rviz_navigation_path](src/me5413_world/media/path_3.png)
+  ![rviz_navigation_path](src/me5413_world/media/path_4.png)
 
 * We also provides you four topics (and visualized in RVIZ) that computes the real-time pose error between your robot and the selelcted goal pose:
   * `/me5413_world/absolute/heading_error` (in degrees, wrt `world` frame, `std_msgs::Float32`)
